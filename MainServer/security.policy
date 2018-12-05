@@ -1,0 +1,2 @@
+System.getProperties().put("java.security.policy","security.policy");
+System.setSecurityManager(new RMISecurityManager());
